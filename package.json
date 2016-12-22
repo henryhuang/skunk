@@ -4,7 +4,8 @@
   "description": "Receive request then do.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Good!\" && exit 0"
+    "test": "echo \"Good!\" && exit 0",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/henryhuang/skunk#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "file-stream-rotator": "0.0.7",
     "morgan": "^1.7.0"

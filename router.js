@@ -29,7 +29,6 @@ processors.forEach((ele) => {
         if (!fs.existsSync(procPath)) {
             procPath = path.join(__dirname, 'extends', ele.processor + '.js');
         }
-        console.log(procPath)
         if (fs.existsSync(procPath)) {
             let processor = require(procPath);
             processor.call(this, req, res, next);
