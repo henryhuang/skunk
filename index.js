@@ -2,7 +2,7 @@
  * Created by Henry Huang on 12/22/16.
  */
 'use strict'
-const receiver = require('./receiver')
+const receiver = require('./lib/receiver')
 const config = require('./config.json')
 
 console.log(JSON.stringify(config));
