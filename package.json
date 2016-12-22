@@ -1,0 +1,27 @@
+{
+  "name": "skunk",
+  "version": "0.0.1",
+  "description": "Receive request then do.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Good!\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/henryhuang/skunk.git"
+  },
+  "keywords": [
+    "receiver"
+  ],
+  "author": "Henry Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henryhuang/skunk/issues"
+  },
+  "homepage": "https://github.com/henryhuang/skunk#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "file-stream-rotator": "0.0.7",
+    "morgan": "^1.7.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "server": {
+    "port": 19891,
+    "host": "127.0.0.1"
+  },
+  "processors": [
+    {
+      "path": "/deploy",
+      "processor": "deploy.processor"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "processors": [{
+    "path": "/test",
+    "processor": "test.processor"
+  }]
+}
