@@ -2,5 +2,8 @@
   "processors": [{
     "path": "/test",
     "processor": "test.processor"
+  },{
+    "path": "/deploy",
+    "processor": "deploy.processor"
   }]
 }
