@@ -5,8 +5,8 @@
   },
   "processors": [
     {
-      "path": "/deploy",
-      "processor": "deploy.processor"
+      "path": "/",
+      "processor": "default.processor"
     }
   ]
 }
