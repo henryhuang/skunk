@@ -1,5 +1,5 @@
 /node_modules
 /log
 *.log
+!/custom/README.md
 /custom
-#!/custom/README.md
