@@ -22,8 +22,15 @@
   "homepage": "https://github.com/henryhuang/skunk#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "del": "^2.2.2",
+    "exec": "^0.2.1",
     "express": "^4.14.0",
     "file-stream-rotator": "0.0.7",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "npm-run": "^4.1.0",
+    "pm2": "^2.2.2",
+    "prettyjson": "^1.2.1",
+    "spawn-sync": "^1.0.15",
+    "unzip": "^0.1.11"
   }
 }

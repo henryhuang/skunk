@@ -2,8 +2,11 @@
  * Created by Henry Huang on 12/22/16.
  */
 'use strict'
-const receiver = require('./lib/receiver')
-const config = require('./config.json')
+const server = require('./lib/server');
+const config = require('./config.json');
+const prettyjson = require('prettyjson');
+const path = require('path');
 
-console.log(JSON.stringify(config));
-receiver.start(config.server.host, config.server.port);
+config.log_dir = path.join(__dirname, 'log');
+
+server.start(config);
